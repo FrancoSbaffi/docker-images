@@ -10,11 +10,11 @@ Este repositorio contiene los archivos necesarios para construir y desplegar una
 
 ## Construir la imagen docker
 
-• docker build -t fran/docker-image-project:latest .
+1. docker build -t fran/docker-image-project:latest .
 
 Ejecutar el contenedor
 
-• docker run -d -p 80:3000 fran/docker-image-project:latest
+1. docker run -d -p 80:3000 fran/docker-image-project:latest
 
 # Al abrir el http://localhost/ se deberia ver lo siguiente
 
