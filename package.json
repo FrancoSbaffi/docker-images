@@ -1,0 +1,11 @@
+{
+  "name": "docker-image-project",
+  "version": "1.0.0",
+  "description": "Una aplicación simple de Node.js para demostrar la creación de una imagen Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
