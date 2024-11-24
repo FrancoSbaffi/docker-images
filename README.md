@@ -21,7 +21,7 @@ cd <tu_directorio>
 
 2. Clonar este repo
 
-git clone https://github.com/tu_usuario/docker-image-project.git
+git clone [https://github.com/tu_usuario/docker-image-project.git](https://github.com/FrancoSbaffi/docker-images.git)
 
 3. Cambiar al directorio del proyecto
 
