@@ -25,7 +25,7 @@ git clone https://github.com/FrancoSbaffi/docker-images.git
 
 3. Cambiar al directorio del proyecto
 
-cd docker-image-project
+cd docker-images
 
 # Construir la Imagen Docker
 
