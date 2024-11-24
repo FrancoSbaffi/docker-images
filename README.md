@@ -1,24 +1,50 @@
-# Imagen Docker
+# Docker Image Project
 
-Este repositorio contiene los archivos necesarios para construir y desplegar una aplicación simple de Node.js dentro de un contenedor Docker.
+Este repositorio contiene todos los elementos necesarios para construir y desplegar una aplicación básica de Node.js dentro de un contenedor Docker.
 
-## Probar las Instrucciones del README.md
+## Descripción
 
-1. cd ..
-2. git clone https://github.com/tu_usuario/docker-image-project.git
-3. cd docker-image-project
+La aplicación desplegada es una sencilla API que responde con un mensaje al ser accedida. Este proyecto sirve como base para comprender cómo empaquetar aplicaciones dentro de contenedores Docker.
 
-## Construir la imagen docker
+## Requisitos Previos
 
-1. docker build -t fran/docker-image-project:latest .
+Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu máquina local:
 
-Ejecutar el contenedor
+    Docker Engine: Para construir y ejecutar imágenes Docker.
+    Git: Para clonar este repositorio.
+
+# Instrucciones para Clonar el Repositorio
+
+1. Navegar al directorio donde clonar el proyecto:
+
+cd <tu_directorio>
+
+2. Clonar este repo
+
+git clone https://github.com/tu_usuario/docker-image-project.git
+
+3. Cambiar al directorio del proyecto
+
+cd docker-image-project
+
+# Construir la Imagen Docker
+
+1. Ejecutar el Comando
+
+docker build -t fran/docker-image-project:latest .
+
+# Ejecutar el Contenedor
 
 1. docker run -d -p 80:3000 fran/docker-image-project:latest
 
-# Al abrir el http://localhost/ se deberia ver lo siguiente
+2. docker ps
 
-![image](https://github.com/user-attachments/assets/5fdc1414-711e-4a3f-8c79-b5ba877a90cf)
+# Probar la Aplicación
+
+1. En el navegador a travez de esta URL (http://localhost/
+) se deberia ver:
+
+![image](https://github.com/user-attachments/assets/abbba27d-182e-44ec-8773-2f0c10b181e6)
 
 
 ```bash
