@@ -17,21 +17,21 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 
 1. Navegar al directorio donde clonar el proyecto:
 
-cd <tu_directorio>
+    cd <tu_directorio>
 
 2. Clonar este repo
 
-git clone https://github.com/FrancoSbaffi/docker-images.git
+    git clone https://github.com/FrancoSbaffi/docker-images.git
 
 3. Cambiar al directorio del proyecto
 
-cd docker-images
+    cd docker-images
 
 # Construir la Imagen Docker
 
 1. Ejecutar el Comando
 
-docker build -t fran/docker-image-project:latest .
+    docker build -t fran/docker-image-project:latest .
 
 # Ejecutar el Contenedor
 
